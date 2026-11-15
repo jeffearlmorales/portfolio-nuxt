@@ -36,6 +36,7 @@ html {
   font-family: "Playfair Display", serif;
 }
 
+/* Signature amber-to-crimson text gradient from your original CSS */
 .brand-gradient-text {
   background: linear-gradient(270deg, #df8908 10%, #ff1d15 100%);
   -webkit-background-clip: text;
@@ -43,10 +44,17 @@ html {
   color: transparent;
 }
 
+/* Signature orange glow effect */
 .orange-glow {
   box-shadow: 0 0 22px rgba(234, 88, 12, 0.35);
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
     border-color 0.3s ease;
+}
+
+.orange-glow:hover {
+  box-shadow:
+    0 0 25px rgba(234, 88, 12, 0.65),
+    0 0 50px rgba(234, 88, 12, 0.3);
 }
